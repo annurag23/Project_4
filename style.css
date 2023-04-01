@@ -81,8 +81,12 @@ body {
     font-size: 15px;
     font-weight: 600;
 }
-.button-small, .button-large {
+.button-small, .button-large{
     background-color: #ba0cc5;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s;
+}
+.button-small, .button-large:hover{
+    transform: scale(1.2);
 }
